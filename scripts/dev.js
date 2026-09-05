@@ -12,7 +12,7 @@ const npmCmd = isWin ? 'npm.cmd' : 'npm';
 console.log('=====================================================');
 console.log(' Starting ProjectForge AI Full-Stack Development Engine');
 console.log(' Frontend: http://localhost:5173');
-console.log(' Backend:  http://localhost:5000');
+console.log(' Backend:  http://localhost:8080');
 console.log('=====================================================');
 
 const serverProc = spawn(npmCmd, ['--prefix', 'server', 'run', 'dev'], {
